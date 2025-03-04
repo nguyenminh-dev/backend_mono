@@ -1,0 +1,47 @@
+# Thư mục build, publish và các file biên dịch
+bin/
+obj/
+publish/
+out/
+
+# File dự án của Visual Studio
+.vscode/
+*.user
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.cache
+*.ide/
+
+# Thư mục chứa các package đã restore
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+artifacts/
+
+# Log file và debug
+*.log
+*.tlog
+*.lastcodeanalysissucceeded
+
+# Cấu hình môi trường và bảo mật
+.env
+appsettings.*.json
+
+# Các file khóa
+*.lock
+yarn.lock
+package-lock.json
+
+# Thư mục của Node.js và front-end
+node_modules/
+jspm_packages/
+bower_components/
+typings/
+
+# Các thư mục và file khác không cần thiết
+*.vs/
+.idea/
+.DS_Store
+Thumbs.db
