@@ -27,7 +27,6 @@ artifacts/
 
 # Cấu hình môi trường và bảo mật
 .env
-appsettings.*.json
 
 # Các file khóa
 *.lock
